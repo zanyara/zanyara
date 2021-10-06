@@ -1,0 +1,256 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showMenu": true,
+      "showSearch": false,
+      "showLogo": true,
+      "menuIcon": {
+        "name": "more_vert_sharp",
+        "fontFamily": "MaterialIcons"
+      }
+    },
+    {
+      "text": "Search for products...",
+      "height": 75.0,
+      "padding": 10.0,
+      "shadow": 10.0,
+      "radius": 15.0,
+      "layout": "header_search",
+      "marginLeft": 0.0,
+      "marginRight": 0.0,
+      "marginTop": 0.0,
+      "marginBottom": 0.0,
+      "textOpacity": 1.0,
+      "backgroundInput": true,
+      "borderInput": true,
+      "fontSize": 17.0,
+      "boxShadow": {
+        "x": -40.0
+      },
+      "showShadow": false
+    },
+    {
+      "layout":"bannerImage",
+      "isSlider":true,
+      "marginTop":0.0,
+      "marginBottom":0.0,
+      "marginLeft":0.0,
+      "marginRight":0.0,
+      "height":0.30,
+      "fit":"cover",
+      "items":[
+        {
+          "padding":15.0,
+          "image":"https://i.imgur.com/imYXIWw.jpeg",
+          "url":"https://www.gardwn.com/vendor-membership/?vmstep=registration"
+        },
+        {
+          "image":"https://i.imgur.com/x2mab07.jpeg",
+          "padding":15.0,
+          "category":null,
+          "tag":284
+        },
+        {
+          "padding":15.0,
+          "image":"https://i.imgur.com/8pL2ua9.jpeg",
+          "vendor":"424"
+        }
+      ],
+      "autoPlay":false,
+      "design":"default",
+      "radius":15,
+      "intervalTime":3
+    },
+    {
+      "name": "Editor's choice",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": null,
+      "featured": true
+    },
+    {
+      "name": "Recently added",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": null
+    },
+    {
+      "layout": "geoSearch",
+      "showSeeAll": true,
+      "headerText": "Nearby stores"
+    },
+    {
+      "name": "Crafts",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": "207"
+    },
+    {
+      "name": "Jewellery",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": "318"
+    },
+    {
+      "name": "Fashion",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": "91"
+    },
+    {
+      "name": "Beauty",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": "96"
+    },
+    {
+      "name": "Bags and Shoes",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": "209"
+    },
+    {
+      "name": "Arts",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": "215"
+    },
+    {
+      "name": "Food",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": "93"
+    },
+    {
+      "name": "Other categories",
+      "layout": "twoColumn",
+      "isSnapping": false,
+      "category": "15"
+    },
+    {
+      "name": "Recently seen",
+      "layout": "recentView",
+      "isSnapping": false
+    }
+  ],
+  "Setting": {
+    "TabBarConfig": {
+      "isSafeArea": true,
+      "color": null,
+      "colorCart": null,
+      "colorIcon": "ff5d6d77",
+      "colorActiveIcon": "ff1f2c33",
+      "iconSize": 24.70231871589422,
+      "indicatorStyle": "material",
+      "showFloatingClip": true,
+      "showFloating": true,
+      "radiusTopLeft": 0.0,
+      "radiusTopRight": 0.0,
+      "radiusBottomLeft": 0.0,
+      "radiusBottomRight": 0.0,
+      "paddingLeft": 0.0,
+      "paddingRight": 0.0,
+      "paddingBottom": 0.0,
+      "paddingTop": 0.0,
+      "marginTop": 0.0,
+      "marginBottom": 0.0,
+      "marginLeft": 0.0,
+      "marginRight": 0.0,
+      "TabBarIndicator": {
+        "height": 4.253388202581078,
+        "tabPosition": "bottom",
+        "topRightRadius": null,
+        "topLeftRadius": null,
+        "bottomRightRadius": null,
+        "bottomLeftRadius": null,
+        "color": "ff2b6887",
+        "horizontalPadding": 0.0,
+        "verticalPadding": null,
+        "strokeWidth": null,
+        "radius": null,
+        "distanceFromCenter": null,
+        "paintingStyle": "fill"
+      },
+      "TabBarFloating": {
+        "position": 2,
+        "radius": 50.0,
+        "color": "9b2b6887",
+        "location": "centerDocked",
+        "width": 45.0,
+        "height": 45.0,
+        "elevation": 0.0,
+        "floatingType": "rectangle"
+      }
+    },
+    "StickyHeader": false,
+    "ProductDetail": "simpleType",
+    "FontHeader": "ABeeZee",
+    "ProductListLayout": "list",
+    "MainColor": "ff2b6887"
+  },
+  "TabBar": [
+    {
+      "key": "p92rfrpdz0",
+      "layout": "home",
+      "icon": "home",
+      "fontFamily": "CupertinoIcons",
+      "label": "Hom",
+      "pos": 100
+    },
+    {
+      "key": "jh2bpjciqf",
+      "layout": "category",
+      "icon": "square_split_2x2_fill",
+      "fontFamily": "CupertinoIcons",
+      "label": "Categories",
+      "categoryLayout": "card",
+      "pos": 200
+    },
+    {
+      "size": 24,
+      "fontFamily": "CupertinoIcons",
+      "layout": "search",
+      "icon": "search",
+      "pos": 300,
+      "key": "0961ytbmck"
+    },
+    {
+      "key": "rmda0fjn2a",
+      "layout": "cart",
+      "icon": "bag",
+      "fontFamily": "CupertinoIcons",
+      "label": "Cart",
+      "pos": 400
+    },
+    {
+      "key": "he17phdd6d",
+      "layout": "profile",
+      "icon": "gear_big",
+      "fontFamily": "CupertinoIcons",
+      "label": "settings",
+      "pos": 500,
+      "settings": null,
+      "background": null
+    }
+  ],
+  "Drawer": {
+    "items": [
+      {"type": "home", "show": true},
+      {"type": "blog", "show": true},
+      {"type": "cart", "show": true},
+      {"type": "profile", "show": true},
+      {"type": "language", "show": true},
+      {"type": "web", "show": true},
+      {"type": "login", "show": true},
+      {"type": "category", "show": false}
+    ],
+    "logo": "assets/images/logo.png"
+  },
+  "Background": {
+    "layout": "background",
+    "color": null,
+    "image": null,
+    "height": 0.4
+  }
+}
