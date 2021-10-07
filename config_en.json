@@ -57,13 +57,13 @@
           "vendor":"424"
         }
       ],
-      "autoPlay":false,
+      "autoPlay":true,
       "design":"default",
       "radius":15,
       "intervalTime":3
     },
     {
-      "name": "Editor's choicexoxo",
+      "name": "Editor's choice",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": null,
@@ -75,11 +75,7 @@
       "isSnapping": false,
       "category": null
     },
-    {
-      "layout": "geoSearch",
-      "showSeeAll": true,
-      "headerText": "Nearby stores"
-    },
+
     {
       "name": "Crafts",
       "layout": "twoColumn",
@@ -195,7 +191,7 @@
       "layout": "home",
       "icon": "home",
       "fontFamily": "CupertinoIcons",
-      "label": "Hom",
+      "label": "Home",
       "pos": 100
     },
     {
