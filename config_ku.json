@@ -11,7 +11,7 @@
       }
     },
     {
-      "text": "Search for products...",
+      "text": "بگەڕێ...",
       "height": 75.0,
       "padding": 10.0,
       "shadow": 10.0,
@@ -57,79 +57,75 @@
           "vendor":"424"
         }
       ],
-      "autoPlay":false,
+      "autoPlay":true,
       "design":"default",
       "radius":15,
       "intervalTime":3
     },
     {
-      "name": "Editor's choice kurdi",
+      "name": "هەڵبژاردەی گەردون",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": null,
       "featured": true
     },
     {
-      "name": "Recently added",
+      "name": "کاڵای نوێ",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": null
     },
+
     {
-      "layout": "geoSearch",
-      "showSeeAll": true,
-      "headerText": "Nearby stores"
-    },
-    {
-      "name": "Crafts",
+      "name": "کاری دەست",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": "207"
     },
     {
-      "name": "Jewellery",
+      "name": "خشڵ",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": "318"
     },
     {
-      "name": "Fashion",
+      "name": "پۆشاک",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": "91"
     },
     {
-      "name": "Beauty",
+      "name": "جوانکاری",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": "96"
     },
     {
-      "name": "Bags and Shoes",
+      "name": "جانتا و پێڵاو",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": "209"
     },
     {
-      "name": "Arts",
+      "name": "هونەر",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": "215"
     },
     {
-      "name": "Food",
+      "name": "خواردن",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": "93"
     },
     {
-      "name": "Other categories",
+      "name": "بابەتی تر",
       "layout": "twoColumn",
       "isSnapping": false,
       "category": "15"
     },
     {
-      "name": "Recently seen",
+      "name": "تازە بینراو",
       "layout": "recentView",
       "isSnapping": false
     }
@@ -195,7 +191,7 @@
       "layout": "home",
       "icon": "home",
       "fontFamily": "CupertinoIcons",
-      "label": "Hom",
+      "label": "سەرەکی",
       "pos": 100
     },
     {
@@ -203,7 +199,7 @@
       "layout": "category",
       "icon": "square_split_2x2_fill",
       "fontFamily": "CupertinoIcons",
-      "label": "Categories",
+      "label": "بابەتەکان",
       "categoryLayout": "card",
       "pos": 200
     },
@@ -220,7 +216,7 @@
       "layout": "cart",
       "icon": "bag",
       "fontFamily": "CupertinoIcons",
-      "label": "Cart",
+      "label": "سەبەتە",
       "pos": 400
     },
     {
@@ -228,7 +224,7 @@
       "layout": "profile",
       "icon": "gear_big",
       "fontFamily": "CupertinoIcons",
-      "label": "settings",
+      "label": "رێکخستن",
       "pos": 500,
       "settings": null,
       "background": null
