@@ -11,26 +11,6 @@
       }
     },
     {
-      "text": "بگەڕێ...",
-      "height": 75.0,
-      "padding": 10.0,
-      "shadow": 10.0,
-      "radius": 15.0,
-      "layout": "header_search",
-      "marginLeft": 0.0,
-      "marginRight": 0.0,
-      "marginTop": 0.0,
-      "marginBottom": 0.0,
-      "textOpacity": 1.0,
-      "backgroundInput": true,
-      "borderInput": true,
-      "fontSize": 17.0,
-      "boxShadow": {
-        "x": -40.0
-      },
-      "showShadow": false
-    },
-    {
       "layout":"bannerImage",
       "isSlider":true,
       "marginTop":0.0,
